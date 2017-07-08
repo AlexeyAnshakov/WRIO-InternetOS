@@ -261,19 +261,22 @@ export default class Main extends React.Component {
                       <ul className="nav nav-tabs" data-tabs="tabs">
                         <li className="active">
                           <a href="#home" data-toggle="tab">
-                            Home
+                            <i className="material-icons dp_big visible-xs-block">home</i>
+                            <span className="hidden-xs">Home</span>
                             <div className="ripple-container"></div>
                           </a>
                         </li>
                         <li>
                           <a href="#collections" data-toggle="tab">
-                            Collections
+                            <i className="material-icons dp_big visible-xs-block">folder</i>
+                            <span className="hidden-xs">Collections</span>
                             <div className="ripple-container"></div>
                           </a>
                         </li>
                         <li>
                           <a href="#read_later" data-toggle="tab">
-                            Read later <label>4</label>
+                            <i className="material-icons dp_big visible-xs-block left">watch_later</i>
+                            <span className="hidden-xs">Read later</span> <label>4</label>
                             <div className="ripple-container"></div>
                           </a>
                         </li>
@@ -287,10 +290,10 @@ export default class Main extends React.Component {
                       {center}
                     </div>
                     <div className="tab-pane" id="collections">
-                      <p>Lists</p>
+                      <p>Collections</p>
                     </div>
-                    <div className="tab-pane" id="opened">
-                      <p>Opened</p>
+                    <div className="tab-pane" id="read_later">
+                      <p>Read Later</p>
                     </div>
                   </div>
                 </div>

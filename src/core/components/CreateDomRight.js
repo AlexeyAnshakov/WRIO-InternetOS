@@ -212,6 +212,9 @@ var CreateDomRight = React.createClass({
                   </ul>:""}
                 { (articleItems.length > 0) ?
                   <nav className="contents visible-md-block visible-lg-block"> {/* add "navbar-fixed-top" and id="cd-vertical-nav" for small displays */}
+                    <a href="#" data-toggle="tab">
+                      <i className="material-icons dp_big invert-icon-v visib2le-xs-block">file_download</i>
+                    </a>
                     <h1>Contents</h1>
                     <ul style={height}>
                       {articleItems}
